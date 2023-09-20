@@ -13,4 +13,5 @@ Scenario Outline: Set character name
 
         | characterNameInput | characterNameOutput |
         | Erin            | Erin             |
-        | | Character |
+        | Mr. Pink | Mr. Pink |
+        | Mr. Red | Mr. Red |
