@@ -12,6 +12,6 @@ Scenario Outline: Set character name
     Examples:
 
         | characterNameInput | characterNameOutput |
-        | Erin            | Erin             |
-        | Mr. Pink | Mr. Pink |
-        | Mr. Red | Mr. Red |
+        | Erin               | Erin                |
+        | Mr. Pink           | Mr. Pink            |
+        | Mr. Red            | Mr. Red             |
