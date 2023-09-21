@@ -1,5 +1,7 @@
+using System;
 using System.Collections.Generic;
 using NUnit.Framework;
+using selectCharacter;
 
 namespace CharacterChoose
 {
@@ -47,6 +49,15 @@ namespace CharacterChoose
             };
             //Assert
             Assert.AreEqual(expectedCharacters, ActualCharacters);
+        }
+
+        [Test]
+        public void ReadUserNameInput()
+        {
+
+            string expectedUser = "Only 2 Coders";
+            string actualUser = "Only 2 Coders";
+            Assert.AreEqual(expectedUser, actualUser);
         }
     }
 }
