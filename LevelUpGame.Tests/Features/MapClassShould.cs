@@ -14,6 +14,7 @@ namespace mapInitialize
             Assert.AreNotEqual(expectedConfirmationOption, actualConfirmationOption);
         }
 
+        [Test]
         public void ConfirmNo()
         {
             //Create a question that recieves an input of y or n
@@ -22,5 +23,14 @@ namespace mapInitialize
             Assert.AreNotEqual(expectedConfirmationOption, actualConfirmationOption);
         }
 
+        [Test]
+        public void GridSize()
+        {
+            int xAxis = 9;
+            int yAxis = 9;
+            string experctedGridSize = ($"{xAxis} x {yAxis}");
+            string actualGridSize = ($"{xAxis} x {yAxis}");
+            Assert.AreEqual(experctedGridSize, actualGridSize);
+        }
     }
 }
