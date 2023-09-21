@@ -57,47 +57,7 @@ namespace selectCharacter
             {
                 Console.WriteLine($"{playerName}! you've chosen the {characters.Values} as your character! That's different, I like it :)!");
             }
-
-         
-
-            // string characterSuit = string.Empty;
-            // switch (characterChoice)
-            // {
-            //     case "1":
-            //         characterSuit = "Red Suit Guy";
-            //         break;
-            //     case "2":
-            //         characterSuit = "Blue Suit Guy";
-            //         break;
-            //     case "3":
-            //         characterSuit = "Green Suit Guy";
-            //         break;
-            //     default:
-            //         Console.WriteLine("Invalid choice. restart the game please and input a valid chose of either option 1, 2, or 3");
-            //         return;
-            // }
-
-
-        
-
-            Console.WriteLine("Select a Character Please");
         }
-       
-        // public void CreateCharacter()
-            
-        //     {
-        //         if (select == [0] )
-        //         {
-        //             Console.WriteLine($"you've selected character {Characters[0]}");
-        //         }
-        //         else if (select == [1])
-        //         {
-        //             Console.WriteLine($"you've selected character {Characters[1]}");
-        //         }
-        //         else 
-        //         {
-        //             Console.WriteLine($"you've selected character {Characters[2]}");
-        //         }
-        //     }
-        }
+
     }
+}
